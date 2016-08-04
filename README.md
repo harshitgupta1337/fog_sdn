@@ -15,9 +15,8 @@ sudo python topology_sumitro.py
 ```
 sudo ./pox.py log.level --DEBUG forwarding.controller_sumitro
 ```
-
-* For measuring bandwidth between hosts, use the `iperf` command
-For measuring bandwidth of the path `h1 --> h2`
+## Measuring bandwidth between hosts
+For measuring bandwidth of the path `h1 --> h2`.
 * Execute following command on `h2`
 ```
 iperf -s -p 6000 -i 1
